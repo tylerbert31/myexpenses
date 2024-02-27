@@ -10,7 +10,7 @@ export default async function Home() {
     <div className="m-0 p-0 bg-slate-100 flex justify-center">
       <div
         id="wrapper"
-        className=" min-h-svh grid place-items-center grid-cols-2 max-w-[590px] gap-5 m-4"
+        className="min-h-svh min-w-[400px] scale-90 md:scale-100 sm:scale-95 grid place-items-center grid-cols-2 max-w-[590px] gap-5 m-4"
       >
         <Latest />
         <Past />
