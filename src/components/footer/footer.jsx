@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="footer items-center p-4 bg-gray-200 text-base-content mt-16">
+    <footer className="footer items-center p-4 bg-gray-200 row-start-6 col-span-2 text-base-content mt-16">
       <aside className="items-center grid-flow-col">
         <svg
           xmlns="http://www.w3.org/2000/svg"
